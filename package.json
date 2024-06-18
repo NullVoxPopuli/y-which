@@ -1,0 +1,14 @@
+{
+  "name": "node-which",
+  "version": "1.0.0",
+  "description": "'which', but for dependencies in your js projects",
+  "type": "module",
+  "main": "index.js",
+  "bin": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["which", "tool", "tooling", "resolve", "node", "why"],
+  "author": "NullVoxPopuli",
+  "license": "GPL-3.0"
+}
