@@ -1,5 +1,5 @@
 {
-  "name": "resolve-which",
+  "name": "y-which",
   "version": "1.0.0",
   "description": "'which', but for dependencies in your js projects",
   "type": "module",
