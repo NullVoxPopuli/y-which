@@ -1,6 +1,6 @@
 {
   "name": "y-which",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "'which', but for dependencies in your js projects",
   "type": "module",
   "main": "index.js",
