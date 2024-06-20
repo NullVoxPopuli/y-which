@@ -2,13 +2,33 @@
   "name": "y-which",
   "version": "1.0.1",
   "description": "'which', but for dependencies in your js projects",
+  "keywords": [
+    "which",
+    "tool",
+    "tooling",
+    "resolve",
+    "node",
+    "why"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:NullVoxPopuli/node-which.git"
+  },
+  "license": "GPL-3.0",
+  "author": "NullVoxPopuli",
   "type": "module",
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["which", "tool", "tooling", "resolve", "node", "why"],
-  "author": "NullVoxPopuli",
-  "license": "GPL-3.0"
+  "devDependencies": {
+    "@tsconfig/ember": "^3.0.8",
+    "@tsconfig/strictest": "^2.0.5",
+    "prettier": "^3.2.5",
+    "release-plan": "^0.9.0",
+    "typescript": "^5.4.5"
+  }
 }
