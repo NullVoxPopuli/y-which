@@ -20,6 +20,8 @@
   "main": "index.js",
   "bin": "index.js",
   "scripts": {
+    "lint": "prettier --check .",
+    "lint:fix": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
