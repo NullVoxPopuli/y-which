@@ -1,21 +1,17 @@
 {
   "solution": {
     "y-which": {
-      "impact": "minor",
-      "oldVersion": "1.0.1",
-      "newVersion": "1.1.0",
+      "impact": "patch",
+      "oldVersion": "1.1.0",
+      "newVersion": "1.1.1",
       "constraints": [
         {
-          "impact": "minor",
-          "reason": "Appears in changelog section :rocket: Enhancement"
-        },
-        {
           "impact": "patch",
-          "reason": "Appears in changelog section :house: Internal"
+          "reason": "Appears in changelog section :bug: Bug Fix"
         }
       ],
       "pkgJSONPath": "./package.json"
     }
   },
-  "description": "## Release (2024-06-20)\n\ny-which 1.1.0 (minor)\n\n#### :rocket: Enhancement\n* `y-which`\n  * [#2](https://github.com/NullVoxPopuli/y-which/pull/2) Improve console output  ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### :house: Internal\n* `y-which`\n  * [#1](https://github.com/NullVoxPopuli/y-which/pull/1) Setup CI things ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
+  "description": "## Release (2025-02-19)\n\ny-which 1.1.1 (patch)\n\n#### :bug: Bug Fix\n* `y-which`\n  * [#5](https://github.com/NullVoxPopuli/y-which/pull/5) Fix exports checking ([@NullVoxPopuli](https://github.com/NullVoxPopuli))\n\n#### Committers: 1\n- [@NullVoxPopuli](https://github.com/NullVoxPopuli)\n"
 }
