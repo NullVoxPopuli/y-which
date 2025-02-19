@@ -69,6 +69,10 @@ export class Utils {
         return;
       }
 
+      if (isPackagePathNotExportedError(e, depName)) {
+        return;
+      }
+
       throw e;
     }
   }
@@ -106,6 +110,18 @@ function isModuleNotFoundError(e, request) {
     let lines = e.message.split('\n');
     let mainMessage = lines[0];
     if (mainMessage === ignoredMessage) {
+      return true;
+    }
+  }
+}
+
+function isPackagePathNotExportedError(e, request) {
+  let ignoredMessage = `No "exports" main defined in`;
+
+  if (e instanceof Error) {
+    let lines = e.message.split('\n');
+    let mainMessage = lines[0];
+    if (mainMessage.includes(ignoredMessage) && mainMessage.includes(request)) {
       return true;
     }
   }
